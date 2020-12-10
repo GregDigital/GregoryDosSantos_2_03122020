@@ -2,6 +2,11 @@ body {
     font-family: 'Raleway', sans-serif;
 }
 
+header {
+    
+    height: 200px;
+    background: white;
+}
 
 section {
     display: flex;
@@ -61,6 +66,12 @@ a {
 }
 
 
+.img_result_search:hover {
+    transform: scale(1.01);
+    box-shadow: 0 0 40px -10px rgba(0, 0, 0, 0.25);
+}
+
+
 .img_picture {
     width: 236px;
     height: 116px;
@@ -83,10 +94,18 @@ a {
 }
 
 
+.star:nth-last-child(-3) {
+    color: #b4b4b4
+
+}
+
+
+
 h2 {
     font-family: 'Raleway', sans-serif;
     font-weight: 700;
     font-size: 1em;
+    margin: 0px;
 }
 
 p {
@@ -103,14 +122,28 @@ h2, p, span:last-child {
     padding-bottom: 5px;
 }
 
+#more{
+   
+    display: inline-block;
+    padding-top: 40px;
+    padding-left: 40px;
+    width: 133px;
+    margin: Opx;
+    margin: 0;
+}
 
+#more a:hover{
+    color: #0065FC;
+    transition: 0.3s ease;
+}
 
 /* Most popular right section */
 
 
-#most_popular {
+#most_popular_wrapper {
 
     width: 421px;
+    height: 624px;
     margin-left: 36px;
     background-color: #F2F2F2;
     border-radius: 10px;
@@ -119,16 +152,201 @@ h2, p, span:last-child {
 }
 
 
-.img-2 {
-    
+
+
+.img-mostpopular{
+    display: flex;
+    align-items: center;
     width: 346px;
     height: 144px;
     background-color: #FFFFFF;
     border-radius: 10px;
-    margin-right: 30px;
-    box-shadow: 0px 0px 6px rgba(87, 86, 86, 0);
+    margin-top:25px;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 1px 1px 10px rgb(0 0 0 / 42%);
+   
 
 }
+
+
+
+
+.img_picture_popular {
+    width: 130px;
+    height: 135px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 10px 10px 0px 0px;
+    padding: 4px;
+
+} 
+
+.text {
+width: 133px;
+}
+
+.text span {
+   
+    }
+
+/* Activity section Marseille*/
+
+
+#activity {
+    margin-left: 48px;
+    margin-right: 48px;
+    margin-top: 66px;
+    margin-bottom: 66px;
+   
+}
+
+.activity_container {
+  
+    display: flex;
+   
+}
+
+#activity h1{
+
+font-family: 'Raleway', sans-serif;
+font-weight: 700;
+font-size: 1.2em;
+margin-bottom: 27px;
+padding-top: 0px;
+padding-left: 0px
+
+}
+
+
+
+.activity_img {
+
+    width: 305px;
+    height: 447px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 10px rgb(0 0 0 / 42%);
+    
+
+}
+
+.activity_img img {
+
+    width: 305px;
+    height: 389px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 10px 10px 0px 0px;
+  
+
+}
+
+.activity_img_castle {
+
+    width: 305px;
+    height: 239px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 10px rgb(0 0 0 / 42%);
+    
+}
+
+.activity_img_castle img {
+
+    width: 305px;
+    height: 182px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 10px 10px 0px 0px;
+  
+
+}
+
+.activity_img_island {
+
+    width: 305px;
+    height: 168px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 10px rgb(0 0 0 / 42%);
+    
+}
+
+.activity_img_island img {
+
+    width: 305px;
+    height: 110px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 10px 10px 0px 0px;
+
+}
+
+.activity_img_lady {
+
+    width: 305px;
+    height: 196px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 10px rgb(0 0 0 / 42%);
+    
+}
+
+.activity_img_lady img {
+
+    width: 305px;
+    height: 140px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 10px 10px 0px 0px;
+
+}
+
+
+.activity_img_longchamp {
+
+    width: 305px;
+    height: 210px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 10px rgb(0 0 0 / 42%);
+    
+}
+
+.activity_img_longchamp img {
+
+    width: 305px;
+    height: 153px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 10px 10px 0px 0px;
+
+}
+
+
+/*footer*/
+
+footer {
+    background-color: #F2F2F2;
+    height: 200px;
+    width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
