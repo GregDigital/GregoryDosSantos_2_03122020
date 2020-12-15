@@ -1,26 +1,191 @@
 body {
+    box-sizing: content-box;
     font-family: 'Raleway', sans-serif;
+}
+
+a {
+    color: #000000;
+    text-decoration: none;
+}
+
+.wrapper {
+    max-width: 1340px;
+    margin-left:auto;
+    margin-right: auto;
 }
 
 header {
-    
-    height: 200px;
-    background: white;
-}
-
-section {
     display: flex;
-    flex-wrap: wrap;
-    margin-left: 48px;
-    margin-right: 48px;
-
+    justify-content: space-between;
+    align-items: center;
+    margin-top:50px;
+    margin-bottom:50px;
+    
+}
+#navbar {
+display: flex;
 }
 
 
-h1 {
+
+#navbar ul {
+    display: flex;
+    
+}
+
+#navbar a{
+    text-transform: capitalize;
+    margin-right: 66px;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+
+.test1 a:hover{
+    color: #0065FC;
+    border-top: solid #0065FC 3px;
+    padding-top: 61px;
+    transition: 0.3s ease;
+}
+
+.test2 a {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    color: #0065FC;
+}
+
+
+
+
+
+
+
+/* Div banner slogan*/
+.banner h1 {
+    padding-bottom: 18px;
+}
+.banner strong {
     font-family: 'Raleway', sans-serif;
     font-weight: 700;
-    font-size: 1.2em;
+    font-size: 1.3em;
+}
+
+.banner p {
+    font-family: 'Raleway', sans-serif;
+    font-size: 0.9em;
+
+}
+
+/*Section filter eco, etc*/
+
+#section_filter form{
+	display: flex;
+	height: 52px;
+	border-radius: 15px;
+	background-color: #F2F2F2;
+	width: max-content;
+	margin-bottom: 30px;
+}
+
+#section_filter form label,h2{
+	margin-bottom: auto;
+    margin-top: auto;
+}
+#section_filter form label{
+	padding: 0 20px;
+	text-align: center;
+	font-size: 1.2em;
+}
+
+#city{
+	margin-top: 2px;
+	height: 48px;
+	border: #F2F2F2;
+	text-align: center;
+	font-size: 1.2em;
+	font-weight: bold;
+	vertical-align: middle;
+}
+
+
+#btn_search{
+	padding: 0 12px;
+	height: 50px;
+	background-color: #0065FC;
+	color: #FFF;
+	border: none;
+	border-radius: 0 15px 15px 0;
+	font-size: 1.2em;
+}
+
+
+
+#filters {
+    display: flex;
+}
+
+.button {
+    border: none;
+    background: #FFFFFF;
+}
+
+.button i {
+    z-index: 2;
+    padding: 15px;
+    background-color: #DEEBFF;
+    color: #0065FC;
+    text-align: left;
+    border-radius: 50px;
+    margin-left: 15px;
+   
+
+}
+
+.button span {
+    z-index: 1;
+    display: inline-block;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size:1.2em;
+    border-top-left-radius: none;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    border-bottom-left-radius: none;
+ 
+}
+
+#info {
+    display: flex;
+    align-items: center;
+    margin-top: 40px;
+    margin-bottom:40px;
+}
+
+#info i {
+border: 1px #f2f2f2 solid;
+border-radius: 25px;
+text-align: center;
+padding: 5px 10px;
+color: #0065FC;
+}
+
+
+
+
+#section_filter {
+    margin-top:19px;
+}
+
+
+#section_result {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.section_result_h1 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 1.3em;
     padding-top: 44px;
     padding-left: 40px
 }
@@ -28,27 +193,23 @@ h1 {
 /*the result part*/
 
 #result_search_wrapper{
-	
+   
+    width: 65%;
     background-color: #F2F2F2;
     border-radius: 10px;
-    width: 880px;
+    
+    
    
 }
-
 
 #result_search {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
     padding-left: 40px;
-   
     padding-top: 25px;
    
 
-}
-
-a {
-    color: #000000;
-    text-decoration: none;
 }
 
 
@@ -90,35 +251,48 @@ a {
 }
 
 .star{
-	color: #0065FC;
+    padding-left: 16px;
+    font-size: 0.8em;
+}
+
+.star-most{
+    
+    font-size: 0.8em;
+}
+.bluestar{
+    color: #0065FC;
 }
 
 
-.star:nth-last-child(-3) {
-    color: #b4b4b4
+.greystar {
+    color: #b4b4b4;
 
 }
 
+.greystar:hover {
+    color: #0065FC;
 
+}
 
 h2 {
     font-family: 'Raleway', sans-serif;
-    font-weight: 700;
+    font-weight: 600;
     font-size: 1em;
-    margin: 0px;
+   
 }
 
 p {
     font-family: 'Raleway', sans-serif;
-    font-size: 0.9em;
+    font-size: 0.8em;
 }
 
-h2, p, span {
+.img_result_search h2, .img_result_search p {
     padding-left: 16px;
     padding-bottom: 11px;
 }
 
-h2, p, span:last-child {
+
+.img_result_search h2, p, span:last-child {
     padding-bottom: 5px;
 }
 
@@ -139,25 +313,18 @@ h2, p, span:last-child {
 
 /* Most popular right section */
 
-
 #most_popular_wrapper {
 
-    width: 421px;
+    width: 33%;
     height: 624px;
-    margin-left: 36px;
+    margin-left: auto;
     background-color: #F2F2F2;
     border-radius: 10px;
-    
-
 }
-
-
-
-
 .img-mostpopular{
     display: flex;
     align-items: center;
-    width: 346px;
+    width: 80%;
     height: 144px;
     background-color: #FFFFFF;
     border-radius: 10px;
@@ -165,12 +332,12 @@ h2, p, span:last-child {
     margin-left: auto;
     margin-right: auto;
     box-shadow: 1px 1px 10px rgb(0 0 0 / 42%);
-   
-
 }
 
-
-
+.img-mostpopular:hover {
+    transform: scale(1.01);
+    box-shadow: 0 0 40px -10px rgba(0, 0, 0, 0.25);
+}
 
 .img_picture_popular {
     width: 130px;
@@ -183,7 +350,8 @@ h2, p, span:last-child {
 } 
 
 .text {
-width: 133px;
+width: 50%;
+margin-left: 5%;
 }
 
 .text span {
@@ -193,44 +361,54 @@ width: 133px;
 /* Activity section Marseille*/
 
 
-#activity {
-    margin-left: 48px;
-    margin-right: 48px;
-    margin-top: 66px;
-    margin-bottom: 66px;
-   
-}
-
-.activity_container {
+#section_activity {
+    
+   margin-top: 62px;
+   margin-bottom: 56px; 
   
-    display: flex;
    
 }
 
-#activity h1{
+#section_activity h1{
 
-font-family: 'Raleway', sans-serif;
-font-weight: 700;
-font-size: 1.2em;
-margin-bottom: 27px;
-padding-top: 0px;
-padding-left: 0px
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 1.2em;
+    margin-bottom: 27px;
+    padding-top: 0px;
+    padding-left: 0px
+    
+}
 
+#activity_content {
+  display: flex;
+}
+
+.card {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
 }
 
 
+.first-card {
+    display: flex;
+    margin-right: 5%;
+    flex-wrap: wrap;
+}
 
-.activity_img {
+.one-first {
 
     width: 305px;
     height: 447px;
     border-radius: 10px;
     box-shadow: 1px 1px 10px rgb(0 0 0 / 42%);
+
     
 
 }
 
-.activity_img img {
+.one-first img {
 
     width: 305px;
     height: 389px;
@@ -241,16 +419,17 @@ padding-left: 0px
 
 }
 
-.activity_img_castle {
+.one{
 
     width: 305px;
     height: 239px;
     border-radius: 10px;
+    margin-bottom: 13%;
     box-shadow: 1px 1px 10px rgb(0 0 0 / 42%);
     
 }
 
-.activity_img_castle img {
+.one img {
 
     width: 305px;
     height: 182px;
@@ -261,7 +440,7 @@ padding-left: 0px
 
 }
 
-.activity_img_island {
+.two{
 
     width: 305px;
     height: 168px;
@@ -270,49 +449,10 @@ padding-left: 0px
     
 }
 
-.activity_img_island img {
+.two img {
 
     width: 305px;
     height: 110px;
-    object-fit: cover;
-    object-position: center;
-    border-radius: 10px 10px 0px 0px;
-
-}
-
-.activity_img_lady {
-
-    width: 305px;
-    height: 196px;
-    border-radius: 10px;
-    box-shadow: 1px 1px 10px rgb(0 0 0 / 42%);
-    
-}
-
-.activity_img_lady img {
-
-    width: 305px;
-    height: 140px;
-    object-fit: cover;
-    object-position: center;
-    border-radius: 10px 10px 0px 0px;
-
-}
-
-
-.activity_img_longchamp {
-
-    width: 305px;
-    height: 210px;
-    border-radius: 10px;
-    box-shadow: 1px 1px 10px rgb(0 0 0 / 42%);
-    
-}
-
-.activity_img_longchamp img {
-
-    width: 305px;
-    height: 153px;
     object-fit: cover;
     object-position: center;
     border-radius: 10px 10px 0px 0px;
@@ -323,9 +463,48 @@ padding-left: 0px
 /*footer*/
 
 footer {
+    width: 100%;
     background-color: #F2F2F2;
     height: 200px;
-    width: 100%;
+}
+
+.container_footer {
+    max-width: 1340px;
+    display: flex;
+    align-items: center;
+    height: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+.container_footer h2 {
+
+    padding-bottom: 20px;
+
+}
+.container_footer li {
+
+    padding-bottom: 16px;
+
+}
+
+.container_footer a:hover{
+    color: #0065FC;
+    transition: 0.3s ease;
+}
+
+.about {
+    
+    width: 33%;
+}
+
+.stay {
+    width: 33%;
+}
+
+.help {
+    width: 33%;
 }
 
 
