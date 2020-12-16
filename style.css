@@ -517,6 +517,7 @@ footer {
 
 
 
+/*Media queries à partir d'un ipad PRO*/
 
 @media screen and (max-width: 1024px)
 {
@@ -581,7 +582,79 @@ footer {
 }
 
 
+@media screen and (max-width: 375px)
 
+{
+
+
+    .wrapper {
+        max-width: 365px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+
+
+    .img-mostpopular{
+       
+        width: 90%;
+        height: 144px;
+        background-color: #FFFFFF;
+        border-radius: 10px;
+        margin-top:25px;
+        margin-left: auto;
+        margin-right: auto;
+        box-shadow: 1px 1px 7px rgb(0 0 0 / 13%);
+    }
+
+.img_picture_popular {
+        width: 50%;
+        height: 135px;
+        object-fit: cover;
+        object-position: center;
+        border-radius: 10px 10px 0px 0px;
+        padding: 4px;}
+
+
+        /*hebergement à marseille*/
+
+ 
+        #result_search {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            padding-left: 40px;
+            padding-top: 25px;
+           
+        
+        }
+
+        .img_result_search {
+    
+            width: 244px;
+            height: 198px;
+            background-color: #FFFFFF;
+            border-radius: 10px;
+           
+            box-shadow: 1px 1px 10px rgb(0 0 0 / 42%);
+        
+        }
+
+
+        .img_picture {
+            width: 236px;
+            height: 116px;
+            object-fit: cover;
+            object-position: center;
+            border-radius: 10px 10px 0px 0px;
+            padding: 4px;
+        
+        } 
+        
+
+
+
+}
 
 
 
