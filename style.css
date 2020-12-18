@@ -124,21 +124,39 @@ display: flex;
     display: flex;
 }
 
-.button {
-    border: none;
-    background: #FFFFFF;
+#filters h2 {
+    margin-right: 20px;
 }
 
+.button {
+    /* border: none; */
+    background: #FFFFFF;
+    /* position: relative; */
+    /* z-index: 2; */
+    /* left: -1px; */
+    border: solid 1px lightgrey;
+    padding-left: 0px;
+    border-radius: 30px;
+    margin-right: 20px;
+}
+
+   
+
 .button i {
+    position: relative;
     z-index: 2;
+    left: -2px;
     padding: 15px;
     background-color: #DEEBFF;
     color: #0065FC;
     text-align: left;
     border-radius: 50px;
-    margin-left: 15px;
-   
+    /* margin-left: 15px; */
+}
 
+#filters button:hover {
+    color: #0065fc;
+    border-color: #deebff;
 }
 
 .button span {
@@ -655,6 +673,14 @@ footer {
 
 
 }
+
+
+
+
+
+
+
+
 
 
 
