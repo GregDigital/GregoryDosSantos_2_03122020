@@ -134,10 +134,11 @@ display: flex;
     /* position: relative; */
     /* z-index: 2; */
     /* left: -1px; */
-    border: solid 1px lightgrey;
+    border: solid 2px lightgrey;
     padding-left: 0px;
     border-radius: 30px;
     margin-right: 20px;
+    padding-right: 20px;
 }
 
    
@@ -145,7 +146,7 @@ display: flex;
 .button i {
     position: relative;
     z-index: 2;
-    left: -2px;
+    left: -5px;
     padding: 15px;
     background-color: #DEEBFF;
     color: #0065FC;
@@ -532,6 +533,163 @@ footer {
 
 
 
+@media screen and (max-width: 600px)
+
+{
+
+
+    .wrapper {
+        max-width: 365px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+
+    #filters {
+        display: block;
+    }
+
+    .img-mostpopular{
+       
+        width: 90%;
+        height: 144px;
+        background-color: #FFFFFF;
+        border-radius: 10px;
+        margin-top:25px;
+        margin-left: auto;
+        margin-right: auto;
+        box-shadow: 1px 1px 7px rgb(0 0 0 / 13%);
+    }
+
+.img_picture_popular {
+        width: 50%;
+        height: 135px;
+        object-fit: cover;
+        object-position: center;
+        border-radius: 10px 10px 0px 0px;
+        padding: 4px;}
+
+
+        /*hebergement à marseille*/
+
+ 
+        #result_search {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            padding-left: 40px;
+            padding-top: 25px;
+           
+        
+        }
+
+
+        .img_result_search {
+            width: 90%;
+            height: 198px;
+            background-color: #FFFFFF;
+            border-radius: 10px;
+            box-shadow: 1px 1px 10px rgb(0 0 0 / 42%);
+            margin-right: auto;
+            margin-left: auto;
+        }
+
+
+        
+        .img_picture {
+            width: 98%;
+            height: 116px;
+            object-fit: cover;
+            object-position: center;
+            border-radius: 10px 10px 0px 0px;
+            padding: 4px;
+        }
+
+
+
+        #activity_content {
+            display:block;
+        }
+
+
+
+
+        footer {
+            /* width: 100%; */
+            background-color: #F2F2F2;
+            height: auto;
+            /* height: 200px; */
+        }
+
+        .container_footer {
+            /* max-width: 1340px; */
+            /* width: 100%; */
+            /* display: flex; */
+            /* align-items: center; */
+            /* height: 200px; */
+            /* flex-direction: column; */
+            /* margin-left: auto; */
+            /* margin-right: auto; */
+            display: block;
+            padding-left: 1.5em;
+        }
+
+        .about {
+            width: 100%;
+        }
+        .stay {
+            width: 100%; 
+        }
+
+        .help {
+            width: 100%;
+        }
+
+        .one-first,.one,.two {
+            width: 336px;
+            height: 190px;
+            border-radius: 10px;
+            box-shadow: 1px 1px 7px rgb(0 0 0 / 13%);
+            margin-left: auto;
+            margin-right: auto;
+            margin-bottom: 2em;
+        }
+
+        .one-first img {
+            width: 336px;
+            height: 135px;
+            object-fit: cover;
+            object-position: center;
+            border-radius: 10px 10px 0px 0px;
+        }
+
+        .one img {
+            width: 336px;
+            height: 135px;
+            object-fit: cover;
+            object-position: center;
+            border-radius: 10px 10px 0px 0px;
+        }
+
+        .two img{
+            width: 336px;
+            height: 135px;
+            object-fit: cover;
+            object-position: center;
+            border-radius: 10px 10px 0px 0px;
+        }
+
+        .card {
+            display: block;
+        }
+
+        .first-card {
+            display: block;
+            margin-right: 0;
+           
+        }
+
+}
 
 
 
@@ -598,94 +756,6 @@ footer {
 }
 
 }
-
-
-@media screen and (max-width: 375px)
-
-{
-
-
-    .wrapper {
-        max-width: 365px;
-        margin-left: auto;
-        margin-right: auto;
-    }
-
-
-
-    .img-mostpopular{
-       
-        width: 90%;
-        height: 144px;
-        background-color: #FFFFFF;
-        border-radius: 10px;
-        margin-top:25px;
-        margin-left: auto;
-        margin-right: auto;
-        box-shadow: 1px 1px 7px rgb(0 0 0 / 13%);
-    }
-
-.img_picture_popular {
-        width: 50%;
-        height: 135px;
-        object-fit: cover;
-        object-position: center;
-        border-radius: 10px 10px 0px 0px;
-        padding: 4px;}
-
-
-        /*hebergement à marseille*/
-
- 
-        #result_search {
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: center;
-            padding-left: 40px;
-            padding-top: 25px;
-           
-        
-        }
-
-        .img_result_search {
-    
-            width: 244px;
-            height: 198px;
-            background-color: #FFFFFF;
-            border-radius: 10px;
-           
-            box-shadow: 1px 1px 10px rgb(0 0 0 / 42%);
-        
-        }
-
-
-        .img_picture {
-            width: 236px;
-            height: 116px;
-            object-fit: cover;
-            object-position: center;
-            border-radius: 10px 10px 0px 0px;
-            padding: 4px;
-        
-        } 
-        
-
-
-
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
