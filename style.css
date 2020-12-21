@@ -59,7 +59,9 @@ display: flex;
 }
 
 
-
+#logo {
+    width: 74%;
+}
 
 
 
