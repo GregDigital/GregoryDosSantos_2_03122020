@@ -144,7 +144,7 @@ display: flex;
     padding-left: 0px;
     border-radius: 30px;
     margin-right: 20px;
-    padding-right: 20px;
+    padding-right: 15px;
 }
 
    
@@ -577,7 +577,7 @@ footer {
 
 
     #logo {
-        width: 74%;
+        width: 70%;
     }
 
     #section_filter {
@@ -602,6 +602,18 @@ footer {
         border-radius: 15px;
     }
 
+    #section_filter {
+       
+        margin-right: auto;
+        margin-left: auto;
+        width: 90%;
+       
+    }
+    .banner {
+        width: 90%;
+        margin-right: auto;
+        margin-left: auto;
+    }
 
     #filters {
         display: block;
