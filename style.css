@@ -413,6 +413,7 @@ margin-left: 5%;
     display: flex;
     flex-wrap: wrap;
     width: 100%;
+    justify-content: space-between;
 }
 
 .card h2 {
@@ -422,9 +423,10 @@ margin-left: 5%;
 
 
 .first-card {
-    display: flex;
-    margin-right: 5%;
-    flex-wrap: wrap;
+    .first-card {
+        display: flex;
+        flex-wrap: wrap;
+    }
 }
 
 .one-first {
