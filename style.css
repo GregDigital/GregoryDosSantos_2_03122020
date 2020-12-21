@@ -54,6 +54,10 @@ display: flex;
     color: #0065FC;
 }
 
+#signin {
+    order: 3;
+}
+
 
 
 
@@ -118,7 +122,9 @@ display: flex;
 	font-size: 1.2em;
 }
 
-
+#btnphone_search {
+    display: none;
+}
 
 #filters {
     display: flex;
@@ -129,11 +135,9 @@ display: flex;
 }
 
 .button {
-    /* border: none; */
+   
     background: #FFFFFF;
-    /* position: relative; */
-    /* z-index: 2; */
-    /* left: -1px; */
+
     border: solid 2px lightgrey;
     padding-left: 0px;
     border-radius: 30px;
@@ -544,9 +548,74 @@ footer {
         margin-right: auto;
     }
 
+    header {
+        width: 100%;
+        display: inline-block;
+        /* justify-content: space-between; */
+        /* align-items: center; */
+        /* margin-top: 50px; */
+        /* margin-bottom: 50px; */
+    }
+
+    #logo, #signin {
+        display: inline-block;
+        /* flex-wrap: wrap; */
+        vertical-align: middle;
+        /* justify-content: space-between; */
+        /* align-items: center; */
+        margin-top: 10px;
+        margin-bottom: 50px;
+    }
+
+    #signin {
+        width: 25%;
+    }
+
+
+
+
+    #logo {
+        width: 74%;
+    }
+
+    #section_filter {
+        margin-top: 19px;
+        margin-left: 1em;
+    }
+
+#btn_search {
+   display: none;
+    
+}
+
+
+
+#btnphone_search {
+    
+   
+        width: 18px;
+        display: flex;
+        background-color: #0065FC;
+        padding: 16px;
+        border-radius: 15px;
+    }
+
 
     #filters {
         display: block;
+
+    }
+
+    #filters h2 {
+        margin-bottom: 1.5em;
+    }
+    .button {
+        margin-bottom: 1.5em;
+    }
+
+    #section_result {
+        display: flex;
+        flex-direction: column-reverse;
     }
 
     .img-mostpopular{
@@ -577,10 +646,17 @@ footer {
             display: flex;
             flex-wrap: wrap;
             justify-content: center;
-            padding-left: 40px;
-            padding-top: 25px;
+            padding-left: 0;
+            padding-top: 0;
            
         
+        }
+
+        #result_search_wrapper {
+            width: 100%;
+            background-color: #F2F2F2;
+            border-radius: 10px;
+            margin-top: 1.5em;
         }
 
 
@@ -611,6 +687,16 @@ footer {
             display:block;
         }
 
+        .section_result_h1 {
+            font-family: 'Raleway', sans-serif;
+            font-weight: 700;
+            font-size: 1.3em;
+            padding-top: 0px;
+            padding-left: 0px;
+            
+            margin-bottom: 30px;
+            margin-left: 1em;
+        }
 
 
 
