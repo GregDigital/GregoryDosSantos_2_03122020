@@ -1,3 +1,4 @@
+
 body {
     box-sizing: content-box;
     font-family: 'Raleway', sans-serif;
@@ -10,8 +11,8 @@ a {
 
 .wrapper {
     max-width: max-content;
-    margin-left:auto;
-    margin-right: auto;
+    margin-left: 2em;
+    margin-right: 2em;
 }
 
 header {
@@ -211,8 +212,12 @@ color: #0065FC;
     font-family: 'Raleway', sans-serif;
     font-weight: 700;
     font-size: 1.3em;
-    padding-top: 44px;
-    padding-left: 40px
+    margin-right: 5em;
+    display: block;
+}
+
+i.fas.fa-chart-line {
+    font-size: 23px;
 }
 
 /*the result part*/
@@ -337,6 +342,17 @@ p {
 }
 
 /* Most popular right section */
+
+#stat {
+  
+        /* display: flex; */
+       
+        display: flex;
+        /* flex-wrap: wrap; */
+        margin-right: 3em;
+        margin-left: 3em;
+    
+}
 
 #most_popular_wrapper {
 
