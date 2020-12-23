@@ -193,6 +193,7 @@ border-radius: 25px;
 text-align: center;
 padding: 5px 10px;
 color: #0065FC;
+margin-right: 0.5em;
 }
 
 
@@ -321,10 +322,11 @@ p {
     padding-bottom: 11px;
 }
 
-
+/*
 .img_result_search h2, p, span:last-child {
     padding-bottom: 5px;
 }
+*/
 
 #more{
    
@@ -351,6 +353,7 @@ p {
         /* flex-wrap: wrap; */
         margin-right: 3em;
         margin-left: 3em;
+        margin-top: 2em;
     
 }
 
@@ -557,7 +560,7 @@ footer {
 
 
 
-@media screen and (max-width: 600px)
+@media screen and (max-width: 650px)
 
 {
 
