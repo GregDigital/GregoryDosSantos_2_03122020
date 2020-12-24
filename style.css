@@ -629,15 +629,12 @@ footer {
         margin-bottom: 50px;
     }
 
-    #signin {
-        width: 25%;
-    }
-
-
+ 
 
 
     #logo {
-        width: 70%;
+        width: none;
+        margin-left: 1.5em;
     }
 
     #navbar {
@@ -667,6 +664,27 @@ footer {
        
     }
 
+    #navbar li:hover{
+        color: #0065FC;
+        border-top: none;
+        border-bottom: solid #0065FC 4px;
+        padding-bottom: 12px ;
+       
+    }
+
+    .test1 a:hover {
+        color: #0065FC;
+        border-top: none #0065FC 3px;
+        padding-top: 61px;
+        transition: 0.3s ease;
+    }
+
+    .test3 a:hover {
+        color: #0065FC;
+        border-top: none #0065FC 3px;
+        padding-top: 61px;
+        transition: 0.3s ease;
+    }
     #navbar ul {
         display: flex;
     }
