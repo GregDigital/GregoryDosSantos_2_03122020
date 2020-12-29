@@ -329,12 +329,19 @@ h2 {
    
 }
 
+h3 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    font-size: 1em;
+
+}
+
 p {
     font-family: 'Raleway', sans-serif;
     font-size: 0.8em;
 }
 
-.img_result_search h2, .img_result_search p {
+.img_result_search h3, .img_result_search p {
     padding-left: 16px;
     padding-bottom: 11px;
 }
@@ -434,7 +441,7 @@ margin-left: 5%;
     margin-bottom: 3em;
 }
 
-.text h2 {
+.text h3 {
     font-family: 'Raleway', sans-serif;
     font-weight: 600;
     font-size: 1em;
@@ -454,7 +461,7 @@ margin-left: 5%;
    
 }
 
-#section_activity h1{
+#section_activity h2{
 
     font-family: 'Raleway', sans-serif;
     font-weight: 700;
@@ -477,7 +484,7 @@ margin-left: 5%;
     /* flex-direction: column; */
 }
 
-.card h2 {
+.card h3 {
     margin: 22px;
     
 }
