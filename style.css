@@ -117,8 +117,7 @@ display: flex;
 	text-align: center;
 	font-size: 1.2em;
     font-weight: bold;
-    -webkit-appearance: none;
-	
+
 }
 
 
@@ -181,10 +180,9 @@ display: flex;
     font-family: 'Raleway', sans-serif;
     font-weight: 700;
     font-size:1.2em;
-    border-top-left-radius: none;
     border-top-right-radius: 50px;
     border-bottom-right-radius: 50px;
-    border-bottom-left-radius: none;
+    
  
 }
 
